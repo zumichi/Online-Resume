@@ -1,0 +1,50 @@
+body {
+   
+   font-family: arial;
+   font-size: 25px;
+   margin: 0px;
+   padding: 0px;
+   background-color: lightyellow;
+}
+
+.header {
+   
+   position: fixed;
+   top: 0;
+   width: 100%;
+   margin: 0;
+   padding: 20px;
+   background-color: lightblue;
+   font-weight: bold;
+   font-size: 35px;
+   +text-align: center;
+}
+
+.content {
+   
+   width: 80%;
+   margin-top: 130px;
+   margin-bottom: 50px;
+   margin-left: 10%;
+   border-radius: 40px;
+   overflow: hidden;
+   babackground-color: lightpink;
+}
+
+.title {
+   
+   height: 20%;
+   margin: 0;
+   padding: 20px;
+   background-color: lightblue;
+   text-align: center;
+}
+
+.body {
+   
+   height: 80%;
+   margin: 0;
+   padding: 20px;
+   background-color: lightpink;
+   text-align: center;:
+}
